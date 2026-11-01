@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Part 1</a>
+        <a href="part2.html">Part 2</a>
+        <a href="part3.html" class="active">Part 3</a>
+        <a href="part4.html">Part 4</a>
+        <a href="part5.html">Part 5</a>
+    </nav>
+
+    <main>
+        <section class="task">
+            <h2>Task 5: Add & Remove Elements</h2>
+            <p>Manage your assignment list.</p>
+
+            <ul id="itemList">
+                <li>Assignment 1</li>
+                <li>Assignment 2</li>
+            </ul>
+
+            <div class="button-group">
+                <button id="addButton">Add</button>
+                <button id="prependButton">Add to beginning</button>
+                <button id="removeButton">Remove</button>
+            </div>
+        </section>
+
+        <section class="task">
+            <h2>Task 6: Modifying attributes</h2>
+            <h3>Change image source</h3>
+
+            <img id="demoImage" src=images/beforeImage.jpg alt="part3 image">
+
+            <div class="button-group">
+                <button id="changeImageButton">Change image</button>
+            </div>
+
+            <h3>Change link address</h3>
+            <a id="demoLink" href="https://youtu.be/QhQ4m5g2fhA?si=p20dfHXLAsEGwXo6" target="_blank">
+                YouTube jQuery source
+            </a>
+
+            <div class="button-group">
+                <button id="changeLinkButton">Change link</button>
+            </div>
+        </section>
+
+        <section class="task">
+            <h2>Task 7: Form interaction</h2>
+
+            <form id="userForm">
+                <label for="nameInput">Name:</label>
+                <input type="text" id="nameInput" placeholder="Enter your name">
+
+                <label for="emailInput">Email:</label>
+                <input type="email" id="emailInput" placeholder="Enter your email">
+            </form>
+
+            <div class="output">
+                <h3>Live output</h3>
+                <p id="nameOutput">Name: </p>
+                <p id="emailOutput">Email: </p>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="part3.js"></script>
+
+</body>
+</html>

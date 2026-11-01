@@ -91,3 +91,72 @@ button:hover {
     background-color: #f8e7eb;
     border-radius: 8px;
 }
+
+/* Task 5 */
+#itemList {
+    padding-left: 25px;
+}
+
+#itemList li {
+    font-weight: bold;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+/* Task 6 */
+#demoImage {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#demoLink {
+    display: inline-block;
+    margin-top: 10px;
+    color: #244a79;
+    font-weight: bold;
+}
+
+#demoLink:hover {
+    color: #b66d83;
+}
+
+/* Task 7 */
+#userForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#userForm label {
+    font-weight: bold;
+    color: #051F45;
+}
+
+#userForm input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8e7eb;
+    border-radius: 8px;
+}
+
+.output h3 {
+    margin-top: 0;
+}
+
+.output p{
+    margin: 0 0 10px;
+    padding: 0;
+}
