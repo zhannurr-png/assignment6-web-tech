@@ -81,3 +81,23 @@ button {
 button:hover {
     background-color: #244a79;
 }
+
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .gallery-image {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .task {
+        padding: 15px;
+    }
+}

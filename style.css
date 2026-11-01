@@ -184,3 +184,30 @@ button:hover {
     background-color: #051F45;
     border-radius: 6px;
 }
+
+@media (max-width: 768px) {
+    main {
+        width: 92%;
+    }
+
+    .navbar {
+        gap: 5px;
+    }
+
+    .navbar a {
+        padding: 8px 12px;
+    }
+
+    .task {
+        padding: 15px;
+    }
+
+    #userForm input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .animation-area {
+        max-width: 100%;
+    }
+}
