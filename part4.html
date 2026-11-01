@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Part 1</a>
+        <a href="part2.html">Part 2</a>
+        <a href="part3.html">Part 3</a>
+        <a href="part4.html" class="active">Part 4</a>
+        <a href="part5.html">Part 5</a>
+    </nav>
+
+    <main>
+        <section class="task">
+            <h2>Task 8: Basic Animation</h2>
+            <p>Click the button to increase the square size and change its position.</p>
+            <div class="animation-area">
+                <div id="basicBox" class="animation-box"></div>
+            </div>
+
+            <div class="button-group">
+                <button id="basicAnimateButton">Start</button>
+            </div>
+        </section>
+
+        <section class="task">
+            <h2>Task 9: Sequential Animations</h2>
+            <p>Click the button to move right, move down, shrink the box and return to its original position.</p>
+            <div class="animation-area">
+                <div id="sequenceBox" class="sequence-box"></div>
+            </div>
+
+            <div class="button-group">
+                <button id="sequenceButton">Start</button>
+            </div>
+        </section>
+
+        <section class="task">
+            <h2>Task 10: Combined Animation</h2>
+            <p>Click the button to change opacity, size, and position of the box.</p>
+            <div class="animation-area">
+                <div id="combinedBox" class="combined-box"></div>
+            </div>
+
+            <div class="button-group">
+                <button id="combinedButton">Start</button>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="part4.js"></script>
+
+</body>
+</html>
