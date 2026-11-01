@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Part 1</a>
+        <a href="part2.html" class="active">Part 2</a>
+        <a href="part3.html">Part 3</a>
+        <a href="part4.html">Part 4</a>
+        <a href="part5.html">Part 5</a>
+    </nav>
+
+    <main>
+        <section class="task">
+            <h2>Task 2: Visibility Methods</h2>
+            <p id="visibilityText">
+                Use the buttons to hide and show this paragraph.
+            </p>
+            <div class="button-group">
+                <button id="hideButton">Hide</button>
+                <button id="showButton">Show</button>
+                <button id="toggleButton">Toggle</button>
+            </div>
+        </section>
+
+        <section class="task">
+            <h2>Task 3: Fade Methods</h2>
+            <p>Use the buttons to fade in/fade out the image.</p>
+            <img id="fadeImage" src=images/part2.jpg>
+
+            <div class="button-group">
+                <button id="fadeInButton">Fade in</button>
+                <button id="fadeOutButton">Fade out</button>
+                <button id="fadeToggleButton">Fade toggle</button>
+            </div>
+        </section>
+
+        <section class="task">
+            <h2>Task 4: Slide Methods</h2>
+
+            <div id="slidePanel" class="slide-panel">
+                <p>
+                    Use the buttons to slide up and down this panel.
+                </p>
+            </div>
+
+            <div class="button-group">
+                <button id="slideUpButton">Slide up</button>
+                <button id="slideDownButton">Slide down</button>
+                <button id="slideToggleButton">Slide toggle</button>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="part2.js"></script>
+
+</body>
+</html>
