@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 5</title>
+    <link rel="stylesheet" href="part5.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Part 1</a>
+        <a href="part2.html">Part 2</a>
+        <a href="part3.html">Part 3</a>
+        <a href="part4.html">Part 4</a>
+        <a href="part5.html" class="active">Part 5</a>
+    </nav>
+
+    <main>
+        <section class="task">
+            <h2>Interactive image gallery</h2>
+            <p>Click on any image to enlarge it.</p>
+
+            <div class="gallery">
+                <img class="gallery-image" src=images/starryNight.jpg alt="Starry night">
+                <img class="gallery-image" src=images/kiss.jpg alt="The kiss">
+                <img class="gallery-image" src=images/scream.jpg alt="Scream">
+                <img class="gallery-image" src=images/greatWave.jpg alt="Great Wave">
+            </div>
+
+            <button id="hideGalleryButton">Hide gallery</button>
+            <button id="showGalleryButton">Show gallery</button>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="part5.js"></script>
+
+</body>
+</html>
